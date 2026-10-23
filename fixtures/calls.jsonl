@@ -1,0 +1,13 @@
+{"type":"prices","rules":"0.002","small":"0.012","big":"0.080","note":"illustrative"}
+{"type":"call","id":"claim-status","title":"Claim status lookup","rules":"close","small":"close","big":"close","can_close":["rules","small","big"]}
+{"type":"call","id":"store-hours","title":"Store hours","rules":"close","small":"close","big":"close","can_close":["rules","small","big"]}
+{"type":"call","id":"password-reset","title":"Password reset link","rules":"close","small":"close","big":"close","can_close":["rules","small","big"]}
+{"type":"call","id":"balance-readout","title":"Account balance readout","rules":"close","small":"close","big":"close","can_close":["rules","small","big"]}
+{"type":"call","id":"claim-missing-date","title":"Insurance claim missing the incident date","rules":"pass","small":"close","big":"close","can_close":["small","big"]}
+{"type":"call","id":"shift-swap","title":"Shift swap between two named agents","rules":"pass","small":"close","big":"close","can_close":["small","big"]}
+{"type":"call","id":"failed-delivery","title":"Failed delivery, new window","rules":"pass","small":"close","big":"close","can_close":["small","big"]}
+{"type":"call","id":"address-change","title":"Address change after an ID check","rules":"pass","small":"close","big":"close","can_close":["small","big"]}
+{"type":"call","id":"coverage-overlap","title":"Two policies cover the same loss","rules":"pass","small":"pass","big":"close","can_close":["big"]}
+{"type":"call","id":"outage-credit","title":"Account-specific outage credit","rules":"pass","small":"pass","big":"close","can_close":["big"]}
+{"type":"call","id":"billing-dispute","title":"Partial refund outside the published window","rules":"pass","small":"close","big":"close","can_close":["big"]}
+{"type":"call","id":"legal-threat","title":"Caller wants a lawyer","rules":"pass","small":"pass","big":"pass","can_close":[]}
